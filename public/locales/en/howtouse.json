@@ -1,0 +1,28 @@
+{
+  "howtouse": {
+    "title1": "What you get with",
+    "title2": "Myfates.com",
+    "fullreport": [
+      {
+        "description": "Full report: Full overview of your total life. What are you born with?",
+        "image": "/howtoget/t1.png",
+        "type": "fullreport"
+      },
+      {
+        "description": "Love: Full love overview of your total life. Who will you meet?",
+        "image": "/howtoget/t2.png",
+        "type": "fullreport"
+      },
+      {
+        "description": "Finance: Full finance overview of your total life. How much will you earn?",
+        "image": "/howtoget/t3.png",
+        "type": "fullreport"
+      },
+      {
+        "description": "Learning: Full academic overview of your total life. How and what will you learn?",
+        "image": "/howtoget/t4.png",
+        "type": "fullreport"
+      }
+    ]
+  }
+}

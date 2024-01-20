@@ -1,0 +1,81 @@
+{
+  "title": "Tiny Investment",
+  "title2": "And Get Everything",
+  "moneysign": "USD $",
+  "pricingBtn": {
+    "normal": "Start Your Journey",
+    "soldout": "Sold Out",
+    "view": "View Features",
+    "less": "View Less"
+  },
+  "includes": "Includes",
+  "pricingObj": [
+    {
+      "id": 1,
+      "title": "Pro",
+      "description": "For anyone who wants to know deeper about themselves",
+      "planTitle": 30,
+      "timeline": "monthly",
+      "inclueds": [
+        "Life Total Analysis",
+        "Life Advice",
+        "Romance Compatibility Analysis",
+        "Ideal Partner Analysis",
+        "Financial Analysis",
+        "Financial Risk Analysis",
+        "Academic Advice",
+        "Personalized Daily Energy Overview",
+        "Personalized Daily Romance Overview",
+        "Personalized Daily Finance Overview",
+        "Daily Sayings",
+        "Daily Prayers"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Premium",
+      "description": "For anyone who wants to get a personalized analysis from a doctor who has been in Sajoo for decades",
+      "planTitle": 150,
+      "timeline": "monthly",
+      "inclueds": [
+        "Doctor’s Full Analysis once a month",
+        "Life Total Analysis",
+        "Life Advice",
+        "Romance Compatibility Analysis",
+        "Ideal Partner Analysis",
+        "Financial Analysis",
+        "Financial Risk Analysis",
+        "Academic Advice",
+        "Personalized Daily Energy Overview",
+        "Personalized Daily Romance Overview",
+        "Personalized Daily Finance Overview",
+        "Daily Sayings",
+        "Daily Prayers"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Premium Max",
+      "description": "For anyone who wants to get a personalized+ analysis from a doctor who has been in Sajoo for decades",
+      "planTitle": 300,
+      "timeline": "monthly",
+      "inclueds": [
+        "Doctor’s Full Analysis twice a month",
+        "Doctor’s Q&A",
+        "Maximum Details",
+        "Life Total Analysis",
+        "Life Advice",
+        "Romance Compatibility Analysis",
+        "Ideal Partner Analysis",
+        "Financial Analysis",
+        "Financial Risk Analysis",
+        "Academic Advice",
+        "Personalized Daily Energy Overview",
+        "Personalized Daily Romance Overview",
+        "Personalized Daily Finance Overview",
+        "Daily Sayings",
+        "Daily Prayers"
+      ]
+    }
+  ]
+}

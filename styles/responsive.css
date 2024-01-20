@@ -1,0 +1,34 @@
+@media (min-width: 640px) {
+  .intro::before {
+    left: 30%;
+  }
+}
+
+@media (min-width: 768px) {
+  .intro::before {
+    left: 25%;
+  }
+  .ownersayscatelog .slick-dots {
+    bottom: -10px !important;
+    right: -120px !important;
+    left: auto !important;
+    width: 100% !important;
+  }
+  .ownersayscatelog .nextarrow,
+  .prevarrow {
+    bottom: -70px !important;
+  }
+}
+
+@media (min-width: 1024px) {
+  .intro::before {
+    left: 20%;
+  }
+}
+
+@media (min-width: 1155px) {
+  .ownersayscatelog .slick-dots {
+    bottom: 10px !important;
+    right: -150px !important;
+  }
+}

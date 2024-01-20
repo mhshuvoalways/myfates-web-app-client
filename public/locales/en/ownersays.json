@@ -1,0 +1,43 @@
+{
+  "ownersays": {
+    "title": "Surprisingly Accurate",
+    "title2": "Everything about you",
+    "data": [
+      {
+        "image": "/ownerSaysCatelog/taylor.jpeg",
+        "icon": "/ownerSaysCatelog/1.png",
+        "name": "Taylor Swift",
+        "shortDes": "Born to be Super Woman",
+        "des": "Taylor Swift, thrives on deep connections, balancing her heartfelt career with an unwavering commitment to friends, and social causes. She's genuinely empathetic, creative, and resilient, embodying the essence of her destiny."
+      },
+      {
+        "image": "/ownerSaysCatelog/harry.jpeg",
+        "icon": "/ownerSaysCatelog/2.png",
+        "name": "Harry Styles",
+        "shortDes": "Destined for Greatness",
+        "des": "Harry Styles, was born with profound empathy and charismatic presence. Destined for innovative career with a strong dedication to meaningful relationships. His innate creativity will shape his path as an influential person."
+      },
+      {
+        "image": "/ownerSaysCatelog/olivia.jpeg",
+        "icon": "/ownerSaysCatelog/3.png",
+        "name": "Olivia Rodrigo",
+        "shortDes": "Destined Storyteller",
+        "des": "Olivia Rodrigo, was born with a natural affinity for emotional expression and connection. With a charisma that effortlessly resonates with her audience, Olivia's path seems destined for impactful storytelling."
+      },
+      {
+        "image": "/ownerSaysCatelog/kim.jpeg",
+        "icon": "/ownerSaysCatelog/4.png",
+        "name": "Kim Kardashian",
+        "shortDes": "Everything is not what it seems",
+        "des": "Kim Kardashian, often perceived through the lens of her public persona, exhibits strong traits such as a sense of responsibility, dedication, and practicality. She was born with a talent for organization and an acute attention to detail."
+      },
+      {
+        "image": "/ownerSaysCatelog/billie.jpeg",
+        "icon": "/ownerSaysCatelog/5.png",
+        "name": "Billie Eilish",
+        "shortDes": "Born Artist with a Destiny for Prosperity",
+        "des": "Billie Eilish was born with an innate talent for art and artistic sensibility. She possesses maximum ability to convey complex emotions. Her destiny is clear to be prosperous. However, much self care is needed."
+      }
+    ]
+  }
+}

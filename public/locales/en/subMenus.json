@@ -1,0 +1,21 @@
+{
+  "submenus": [
+    {
+      "name": "PRICING",
+      "href": "/pricing"
+    },
+    {
+      "name": "EXPLORE FUTURE",
+      "href": "/"
+    },
+    {
+      "name": "FREE HOROSCOPE",
+      "href": "/horoscope"
+    },
+    {
+      "name": "CELEBRITY FUTURE",
+      "href": "/"
+    }
+  ],
+  "items": ["Full Report", "Daily Fate", "Love Fate", "Finance Fate"]
+}

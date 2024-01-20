@@ -1,0 +1,22 @@
+{
+  "sidebar": {
+    "home": [
+      { "name": "Home", "href": "/" },
+      { "name": "Pricing", "href": "/pricing" },
+      { "name": "Entire Life", "href": "/fullreport" },
+      { "name": "Free Horoscope", "href": "/horoscope" },
+      { "name": "Celebrity Future", "href": "/" }
+    ],
+    "dashboard": [
+      { "name": "Entire Life", "href": "/fullreport" },
+      { "name": "Daily Outlook", "href": "/dailyfate" },
+      { "name": "Love Outlook", "href": "/lovefate" },
+      { "name": "Finance Outlook", "href": "/financefate" }
+    ],
+    "account": ["Login", "Logout"]
+  },
+  "header": {
+    "signup": "Sign Up",
+    "login": "Login"
+  }
+}

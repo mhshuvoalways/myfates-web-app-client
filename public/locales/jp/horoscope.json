@@ -1,0 +1,10 @@
+{
+  "horoscope": [
+    {
+      "img": "/horoscope/1.png",
+      "title": "2024年を予見する",
+      "des": "Foresee your 2024",
+      "btn": ["NEW", "HOT"]
+    }
+  ]
+}

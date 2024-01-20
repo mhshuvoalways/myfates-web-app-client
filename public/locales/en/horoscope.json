@@ -1,0 +1,22 @@
+{
+  "horoscope": [
+    {
+      "img": "/horoscope/1.png",
+      "title": "2024 Overall Fortune",
+      "des": "Foresee your 2024",
+      "btn": ["NEW", "HOT"]
+    },
+    {
+      "img": "/horoscope/2.png",
+      "title": "2024 Love Fortune",
+      "des": "Foresee your love this year",
+      "btn": ["NEW"]
+    },
+    {
+      "img": "/horoscope/3.png",
+      "title": "2024 Finance Fortune",
+      "des": "Foresee your money fortune",
+      "btn": ["NEW"]
+    }
+  ]
+}

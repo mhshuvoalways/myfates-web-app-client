@@ -1,0 +1,292 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Global css */
+@layer {
+  :root {
+    --text-black: #1b1b1b;
+    --font-serif: "Gilda";
+    --font-serif-medium: "Gilda Medium";
+    --font-serif-bold: "Gilda Bold";
+  }
+
+  *,
+  :after,
+  :before {
+    box-sizing: border-box;
+    color: var(--text-black);
+  }
+
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding: auto 100px !important;
+  }
+
+  .font-title {
+    font-family: "Rubik", sans-serif;
+  }
+
+  .font-gabarito {
+    font-family: "Gabarito", cursive;
+  }
+  .nanum-font {
+    font-family: "Nanum Pen Script", cursive;
+  }
+
+  .font-zilla-slab {
+    font-family: "Zilla Slab", serif;
+  }
+
+  .font-nanum-myeongjo {
+    font-family: "Nanum Myeongjo", serif;
+  }
+
+  .modal::-webkit-scrollbar {
+    display: none;
+    width: 0;
+  }
+
+  .Toastify__toast-body > div:last-child {
+    color: #ffffff;
+  }
+
+  .mybutton {
+    transition: 0.3s;
+    border-radius: 4px;
+  }
+
+  .mybutton:hover {
+    border-radius: 100px;
+  }
+
+  /* my container */
+  .mycontainer {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  @media (min-width: 640px) {
+    .mycontainer {
+      max-width: 640px;
+    }
+  }
+  @media (min-width: 768px) {
+    .mycontainer {
+      max-width: 768px;
+    }
+  }
+  @media (min-width: 1024px) {
+    .mycontainer {
+      max-width: 1024px;
+    }
+  }
+
+  /* Slider */
+  .mySlider .slick-slide {
+    margin: 0 10px;
+  }
+
+  .slick-dots li button:before {
+    font-size: 14px !important;
+  }
+
+  /* global css end */
+
+  /* Home page Intro */
+  .firstintro {
+    background-image: url("../public/intro/bg.jpeg");
+  }
+
+  /* Store Page Intro */
+  .storeLinksIntro::after {
+    position: absolute;
+    z-index: -1;
+    height: 100%;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    background: linear-gradient(
+        117.78deg,
+        #fff9e6 4.58%,
+        rgba(255, 255, 255, 0) 86.1%
+      ),
+      radial-gradient(
+        96.79% 217.39% at 100% 104.38%,
+        rgba(222, 216, 255, 0.4) 0%,
+        #ffffff 100%
+      );
+    background-size: 100% 100%;
+    animation: gradient 8s ease infinite;
+  }
+
+  @keyframes gradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  /* Owner says catelog */
+  .ownersayscatelog .slick-dots li {
+    width: 10px !important;
+  }
+  .ownersayscatelog .slick-dots {
+    bottom: -48px !important;
+    left: 0 !important;
+    width: auto !important;
+  }
+
+  /* Build for growth */
+  .buildgrowth .last-element {
+    transition: all 0.5s;
+    display: flex;
+    opacity: 0;
+    gap: 10;
+  }
+  .buildgrowth .parent:hover .last-element {
+    display: flex;
+    opacity: 1;
+    gap: 10;
+    transform: translateY(-20px);
+  }
+
+  /* Build for growth components */
+  .buildforgrowth {
+    transition: all 0.5s;
+  }
+  .parent:hover .buildforgrowth {
+    transform: translateY(-35px);
+  }
+  .buildforgrowth-img-bg {
+    transition: all 0.5s;
+  }
+  .parent:hover .buildforgrowth-img-bg {
+    background: linear-gradient(45deg, #ffffff, #95dff8);
+  }
+
+  /* Not convince */
+  .notconvince {
+    display: flex !important;
+  }
+  .notc .slick-slide {
+    width: auto !important;
+    margin: 0 15px;
+  }
+
+  /* Get started */
+  .gswsl {
+    background-image: url("../public/gswsl/gswslBg.png");
+  }
+
+  /* what sell catelog */
+  .whatsellcalelog .slick-dots li {
+    width: 10px !important;
+  }
+  .whatsellcalelog .slick-dots {
+    bottom: -10% !important;
+    width: 95% !important;
+  }
+
+  /* what you can sell */
+  .whatsellcatlog .slick-dots {
+    position: static !important;
+    text-align: start !important;
+    padding: 30px 0 0 7px !important;
+  }
+
+  /* Post life */
+  .pl-banner {
+    background-image: url("../public/pastlife/bg.png");
+  }
+  .pl-btn {
+    transform: translate(-50%, 0);
+  }
+
+  .pl-scrollhide::-webkit-scrollbar {
+    display: none;
+  }
+
+  /* MultiItemCarousel.css */
+  .react-multi-carousel-item {
+    animation-duration: 20s; /* Adjust the duration as needed (4 seconds in this example) */
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .react-multi-carousel-track {
+    display: flex;
+    transition: transform 0.2s ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;
+  }
+
+  /* template page */
+  .template {
+    background-image: linear-gradient(140deg, #fa709a, #fee140);
+    background-size: 350% 350%;
+    animation: gradientBG 10s ease infinite;
+  }
+  @keyframes gradientBG {
+    0% {
+      background-position: 100% 25%;
+    }
+    25% {
+      background-position: 0% 100%;
+    }
+    50% {
+      background-position: 100% 25%;
+    }
+    75% {
+      background-position: 0% 0%;
+    }
+    100% {
+      background-position: 100% 25%;
+    }
+  }
+
+  /* payment btn */
+  [data-paypal-smart-button-version] {
+    z-index: 0;
+  }
+
+  /* resources */
+  .resource-title:before {
+    content: "";
+    margin: 0 auto;
+    background: var(--wp--preset--color--contrast-2, currentColor);
+    width: 1.5rem;
+    height: 3rem;
+    clip-path: path(
+      "M11.93.684v8.039l5.633-5.633 1.216 1.23-5.66 5.66h8.04v1.737H13.2l5.701 5.701-1.23 1.23-5.742-5.742V21h-1.737v-8.094l-5.77 5.77-1.23-1.217 5.743-5.742H.842V9.98h8.162l-5.701-5.7 1.23-1.231 5.66 5.66V.684h1.737Z"
+    );
+    display: block;
+  }
+
+  .resource-sec-title:before {
+    content: "";
+    background: var(--wp--preset--color--contrast-2, currentColor);
+    width: 1.5rem;
+    height: 3rem;
+    clip-path: path(
+      "M11.93.684v8.039l5.633-5.633 1.216 1.23-5.66 5.66h8.04v1.737H13.2l5.701 5.701-1.23 1.23-5.742-5.742V21h-1.737v-8.094l-5.77 5.77-1.23-1.217 5.743-5.742H.842V9.98h8.162l-5.701-5.7 1.23-1.231 5.66 5.66V.684h1.737Z"
+    );
+    display: block;
+  }
+  .list-disc{
+    list-style: disc !important;
+  }
+}

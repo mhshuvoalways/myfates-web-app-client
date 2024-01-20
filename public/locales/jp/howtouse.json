@@ -1,0 +1,28 @@
+{
+  "howtouse": {
+    "title1": "Myfates.comで",
+    "title2": "得られるもの",
+    "fullreport": [
+      {
+        "description": "フルレポート： あなたの人生全体を俯瞰する。あなたは何を持って生まれてきたのか？",
+        "image": "/howtoget/t1.png",
+        "type": "完全なレポート"
+      },
+      {
+        "description": "恋愛：あなたの全人生においての完全な恋愛の概要。あなたは誰と出会うのか？",
+        "image": "/howtoget/t2.png",
+        "type": "完全なレポート"
+      },
+      {
+        "description": "金融 ：あなたの人生の総決算。いくら稼ぐのか？",
+        "image": "/howtoget/t3.png",
+        "type": "完全なレポート"
+      },
+      {
+        "description": "学習 ：あなたの人生全体における学問的概要。何をどのように学ぶのか？",
+        "image": "/howtoget/t4.png",
+        "type": "完全なレポート"
+      }
+    ]
+  }
+}
