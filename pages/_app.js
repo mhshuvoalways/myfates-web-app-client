@@ -1,9 +1,7 @@
-import { useEffect } from "react";
 import Head from "next/head";
 import { appWithTranslation } from "next-i18next";
 import setAuthToken from "../utils/setAuthToken";
 import { Provider } from "react-redux";
-import axios from "@/utils/axios";
 import store from "../store";
 import Loading from "@/components/Loading/ClickedLoading";
 import Notify from "@/components/Notify";
@@ -16,13 +14,6 @@ function App({ Component, pageProps }) {
   if (token) {
     setAuthToken(token);
   }
-
-  useEffect(() => {
-    axios
-      .get("/")
-      .then(() => {})
-      .catch(() => {});
-  }, []);
 
   return (
     <Provider store={store}>

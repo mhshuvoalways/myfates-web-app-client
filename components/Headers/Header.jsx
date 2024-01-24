@@ -18,6 +18,8 @@ const Header = ({ toggleSidebar, userReducer }) => {
     dispatch(isAuthenticate());
   }, [dispatch]);
 
+  const token = typeof window !== "undefined" && localStorage.getItem("token");
+
   return (
     <div className={`shadow-sm fixed left-0 right-0 bg-white z-50`}>
       <div className="mx-auto flex justify-between items-center gap-0 sm:gap-5 flex-wrap py-1 mycontainer">
@@ -53,7 +55,7 @@ const Header = ({ toggleSidebar, userReducer }) => {
             {userReducer.isAuthenticate ? (
               userReducer.user?.subscriptionPlan?.planType ? (
                 <Link
-                  href={process.env.DASHBOARD_URL}
+                  href={`${process.env.DASHBOARD_URL}/login?token=${token}`}
                   className="w-0 sm:w-6 cursor-pointer ml-auto hidden sm:block"
                   target="_blank"
                 >
