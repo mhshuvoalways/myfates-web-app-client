@@ -8,6 +8,7 @@ const nextConfig = {
     CLIENT_ID: process.env.CLIENT_ID,
     CLIENT_PANEL_BACKEND_URL: process.env.CLIENT_PANEL_BACKEND_URL,
     PAYPAL_CLIENT_ID: process.env.PAYPAL_CLIENT_ID,
+    PAYPAL_PLAN_ID: process.env.PAYPAL_PLAN_ID,
     DASHBOARD_URL: process.env.DASHBOARD_URL,
   },
   i18n,

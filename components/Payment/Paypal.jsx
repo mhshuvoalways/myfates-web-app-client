@@ -13,7 +13,7 @@ const Paypal = ({ paymentHandler }) => {
         <PayPalButtons
           createSubscription={(_data, actions) => {
             return actions.subscription.create({
-              plan_id: "P-4233795683088472FMVDGYMA",
+              plan_id: process.env.PAYPAL_PLAN_ID,
             });
           }}
           onApprove={(_data, _actions) => {
