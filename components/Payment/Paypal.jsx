@@ -1,6 +1,6 @@
 import { PayPalScriptProvider, PayPalButtons } from "@paypal/react-paypal-js";
 
-const Paypal = ({ paymentHandler }) => {
+const Paypal = ({ paymentHandler, plan, price }) => {
   return (
     <div className="mt-8">
       <PayPalScriptProvider
@@ -13,7 +13,16 @@ const Paypal = ({ paymentHandler }) => {
         <PayPalButtons
           createSubscription={(_data, actions) => {
             return actions.subscription.create({
-              plan_id: process.env.PAYPAL_PLAN_ID,
+              plan_id:
+                (plan.toString() === "pro" &&
+                  price === "2" &&
+                  process.env.PAYPAL_PLAN_FIRST_ID) ||
+                (plan.toString() === "premium" &&
+                  price === "50" &&
+                  process.env.PAYPAL_PLAN_SECOND_ID) ||
+                (plan.toString() === "premium max" &&
+                  price === "80" &&
+                  process.env.PAYPAL_PLAN_THIRD_ID),
             });
           }}
           onApprove={(_data, _actions) => {

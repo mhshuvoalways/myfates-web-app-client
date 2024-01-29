@@ -9,7 +9,8 @@ import ArrowDownBlue from "@/public/pricing/arrowDownBlue.svg";
 
 const PricingItem = ({ pricingObj, pricingBtn, includes, moneysign }) => {
   const [itemExpand, setItemExpand] = useState(false);
-  const { id, title, description, planTitle, inclueds, timeline } = pricingObj;
+  const { id, title, description, planTitle, inclueds, timeline, both } =
+    pricingObj;
 
   const router = useRouter();
   const userReducer = useSelector((store) => store.userReducer);
@@ -59,7 +60,7 @@ const PricingItem = ({ pricingObj, pricingBtn, includes, moneysign }) => {
           </motion.button>
         ) : (
           <motion.button
-            onClick={() => clickHandler(title.toLowerCase(), planTitle)}
+            onClick={() => clickHandler(both.plan.toLowerCase(), both.price)}
             whileTap={{ scale: 0.9 }}
             className={`border border-gray-400 py-2 rounded font-semibold text-center w-full bg-my-blue text-white capitalize`}
           >

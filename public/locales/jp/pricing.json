@@ -13,8 +13,12 @@
     {
       "id": 1,
       "title": "プロ",
+      "both": {
+        "plan": "Pro",
+        "price": 2
+      },
       "description": "自分自身のことをもっと深く知りたい人へ",
-      "planTitle": "3,000 / 月",
+      "planTitle": "200 / 月",
       "timeline": "毎月",
       "inclueds": [
         "人生総合分析",
@@ -34,8 +38,12 @@
     {
       "id": 2,
       "title": "プレミアム",
+      "both": {
+        "plan": "Premium",
+        "price": 50
+      },
       "description": "四柱推命で数十年のキャリアを持つ医師による個別分析を受けたい方へ",
-      "planTitle": "15,000 / 月",
+      "planTitle": "5000 / 月",
       "timeline": "毎月",
       "inclueds": [
         "ドクターによる月1回の完全分析",
@@ -56,8 +64,12 @@
     {
       "id": 3,
       "title": "プレミアムMax",
+      "both": {
+        "plan": "Premium Max",
+        "price": 80
+      },
       "description": "四柱推命で数十年のキャリアを持つ医師による個別分析を受けたい方へ",
-      "planTitle": "30,000 / 月",
+      "planTitle": "8000 / 月",
       "timeline": "毎月",
       "inclueds": [
         "ドクターによる月2回の完全分析",

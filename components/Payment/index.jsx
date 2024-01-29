@@ -7,7 +7,7 @@ import { userUpdate } from "@/store/actions/userAction";
 const Index = () => {
   const dispatch = useDispatch();
   const router = useRouter();
-  const { plan } = router.query;
+  const { plan, price } = router.query;
 
   const paymentHandler = () => {
     const newObj = {};
@@ -21,7 +21,7 @@ const Index = () => {
         <Image src="/payment/payment.avif" alt="" width={500} height={500} />
       </div>
       <div className="w-10/12 md:w-6/12">
-        <Paypal paymentHandler={paymentHandler} />
+        <Paypal paymentHandler={paymentHandler} plan={plan} price={price} />
       </div>
     </div>
   );

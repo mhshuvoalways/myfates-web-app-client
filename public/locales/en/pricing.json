@@ -13,8 +13,12 @@
     {
       "id": 1,
       "title": "Pro",
+      "both": {
+        "plan": "Pro",
+        "price": 2
+      },
       "description": "For anyone who wants to know deeper about themselves",
-      "planTitle": 30,
+      "planTitle": 2,
       "timeline": "monthly",
       "inclueds": [
         "Life Total Analysis",
@@ -34,8 +38,12 @@
     {
       "id": 2,
       "title": "Premium",
+      "both": {
+        "plan": "Premium",
+        "price": 50
+      },
       "description": "For anyone who wants to get a personalized analysis from a doctor who has been in Sajoo for decades",
-      "planTitle": 150,
+      "planTitle": 50,
       "timeline": "monthly",
       "inclueds": [
         "Doctor’s Full Analysis once a month",
@@ -56,8 +64,12 @@
     {
       "id": 3,
       "title": "Premium Max",
+      "both": {
+        "plan": "Premium Max",
+        "price": 80
+      },
       "description": "For anyone who wants to get a personalized+ analysis from a doctor who has been in Sajoo for decades",
-      "planTitle": 300,
+      "planTitle": 80,
       "timeline": "monthly",
       "inclueds": [
         "Doctor’s Full Analysis twice a month",
