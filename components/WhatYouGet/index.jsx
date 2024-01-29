@@ -1,13 +1,14 @@
+import Link from "next/link";
+import { useTranslation } from "next-i18next";
+import Image from "next/image";
+import { Fade, Zoom } from "react-reveal";
 import Icon1 from "@/public/whatWeGet/1.png";
 import Icon2 from "@/public/whatWeGet/2.png";
 import Icon3 from "@/public/whatWeGet/3.png";
 import Icon4 from "@/public/whatWeGet/4.png";
 import WhatYouGetImg from "@/public/whatWeGet/kid.jpeg";
-import Image from "next/image";
-import { Fade, Zoom } from "react-reveal";
 import TextAnimation from "../Utils/TextAnimation";
 import Button from "../common/Button";
-import { useTranslation } from "next-i18next";
 
 const Index = () => {
   const { t } = useTranslation("whatyouget");
@@ -76,9 +77,9 @@ const Index = () => {
                   <br />
                   {readyText2}
                 </p>
-                <div className="mt-10">
-                  <Button value={btn} className={"!bg-[#262A56]"} />
-                </div>
+                <Link href="/pricing">
+                  <Button value={btn} className={"!bg-[#262A56] mt-10"} />
+                </Link>
               </div>
             </Zoom>
           </div>

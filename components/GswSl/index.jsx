@@ -61,7 +61,7 @@ const Index = () => {
               <p className="text-2xl">{secTitle}</p>
               <p className="text-xl text-my-blue">{secTitle2}</p>
             </div>
-            <Link href={"/payment"}>
+            <Link href={"/pricing"}>
               <Button value={btn} className={"!bg-[#262A56]"} />
             </Link>
           </Fade>
