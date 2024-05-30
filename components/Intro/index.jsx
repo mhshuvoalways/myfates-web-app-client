@@ -87,7 +87,7 @@ const Index = () => {
               </motion.button>
             </ScrollList>
           </div>
-          <Image src={Homebg} alt="" className="pt-20" />
+          <Image src={Homebg} alt="" className="pt-20" width={500} height={400} />
         </div>
       </div>
     </div>
